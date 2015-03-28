@@ -1,3 +1,4 @@
+#Hidden folder where the staging area and commits live
 # fish shortcut for listing files
 ll
 #History Text File

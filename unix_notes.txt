@@ -1,0 +1,315 @@
+# fish shortcut for listing files
+ll
+#History Text File
+subl moving_around.txt
+ls -l
+ls
+#Put history output into file
+history > moving_around.txt
+#Change Directory
+cd
+man less
+#Show history in less
+history | less
+h
+h less
+less h
+less -h
+ls | less
+history
+#Open tiny gps in Sublime
+subl TinyGPS.cpp
+cd TinyGPS-13\ 2/
+cd downloads
+cd workspace/
+cd documents
+subl .
+ls .
+.
+ls -R Downloads/
+ls downloads
+ls ~
+#Go up a directory
+..
+cd DJ\ Shadow\ -\ Endtroducing.._/
+cd
+#Open file in nano
+nano Torrent downloaded from Demonoid.com.txt
+cd Mushishi 01.mkv
+cd Mushishi/
+#Print working directory
+pwd
+pws
+#Experimenting with ls flags
+ls -a
+ls -R
+ls -lB
+ls -B
+ls -g
+ls -f
+ls -la@t
+ls -l@
+ls -@
+ls -d
+man ls
+ls info
+ls -;
+ls -lr
+ls -tr
+ls -ltr
+ls -r
+ls -t -l
+ls -t
+cd /
+cd desktop
+git --version
+echo $EDITOR
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+#Configure git user info
+git config --global user.name 'Nicholas Antal Ronyai'
+git config --global user.email 'nicholasronyai1@gmail.com'
+git config --global user.name 'Nicholas Antal RonyaiE'
+#Install git
+brew install git
+#Show path
+echo $PATH
+subl /etc/paths
+brew doctor
+#Update Brew
+brew update
+echo $SHELL
+set -gx EDITOR 'subl -w'
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+Sublime Text 2 > Preferences > Settings - User
+brew info fish
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+#Install fish
+brew install fish
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+sudo xcodebuild -license
+ls -G
+ls _G
+uname
+#Clear the commands line
+clear
+brew
+nano .bash_profile
+ls -la
+echo $PS1
+cd $HOME
+ps aux | grep "top"
+ps aux
+ps -l
+ps
+top
+#Install Xcode
+xcode-select --install
+jobs
+fg 1
+fg 2
+fg2
+fg
+nano hello
+nano .nanorc
+cd $Home/.nanorc
+nano demo.txt
+/Volumes/play\ 1.3/play ; exit;
+mkdir -p pictures/damn/son/that/ill
+mkdir pictures/shit
+cd ~
+mkdir pictures
+rm -r docs
+rm docs
+rm desktop/docs
+cd docs
+cp -r documents desktop/docs
+cp documents/HI.rtf desktop/HI.rtf
+less documents/HI.rtf
+ documents/HI.rtf
+mv desktop/media media shit
+mv desktop/hi.rtf documents
+mv hi.rft documents/
+mv Hello.rtf HI.rtf
+;s
+brew install zsh
+ python
+python
+cd itunes
+cd ~ iTunes Music Library.xml
+cd music
+cd~
+cd public
+play 07_Heavy_Metal_Queen_720p_En_Jp_DualAudio_En_Sub_Cowboy_Bebop.mkv
+vlc 07_Heavy_Metal_Queen_720p_En_Jp_DualAudio_En_Sub_Cowboy_Bebop.mkv
+cd Cowboy\ Bebop\ \(1998\)\ 720p\ \(BrRip\)\ DualAudio\ \(English\,Japanese\)\ HD\ 1-26\ Complete\ \[KoTuWa\]\ v2/
+cd downloadas
+nano hello.rtf
+cd /documents
+cd database
+cd pubsub
+cd library
+/Users/Nicholas/Desktop/Programming/Python/Python\ 3.4/Update\ Shell\ Profile.command ; exit;
+la
+who am i
+who -u
+who
+date
+serveradmin
+~/.ssh/known_hosts
+man ssh
+man nmap
+sudo apt-get update
+ll
+history > moving_around.txt
+subl moving_around.txt
+ls -l
+ls
+cd
+man less
+history | less
+h
+h less
+less h
+less -h
+ls | less
+history
+subl TinyGPS.cpp
+cd TinyGPS-13\ 2/
+cd downloads
+cd workspace/
+cd documents
+subl .
+ls .
+.
+ls -R Downloads/
+ls downloads
+ls ~
+..
+cd DJ\ Shadow\ -\ Endtroducing.._/
+cd
+nano Torrent downloaded from Demonoid.com.txt
+cd Mushishi 01.mkv
+cd Mushishi/
+pwd
+pws
+ls -a
+ls -R
+ls -lB
+ls -B
+ls -g
+ls -f
+ls -la@t
+ls -l@
+ls -@
+ls -d
+man ls
+ls info
+ls -;
+ls -lr
+ls -tr
+ls -ltr
+ls -r
+ls -t -l
+ls -t
+cd /
+cd desktop
+git --version
+echo $EDITOR
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.name 'Nicholas Antal Ronyai'
+git config --global user.email 'nicholasronyai1@gmail.com'
+git config --global user.name 'Nicholas Antal RonyaiE'
+brew install git
+echo $PATH
+subl /etc/paths
+brew doctor
+brew update
+echo $SHELL
+set -gx EDITOR 'subl -w'
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+Sublime Text 2 > Preferences > Settings - User
+brew info fish
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+sudo xcodebuild -license
+ls -G
+ls _G
+uname
+clear
+brew
+nano .bash_profile
+ls -la
+echo $PS1
+cd $HOME
+ps aux | grep "top"
+ps aux
+ps -l
+ps
+top
+xcode-select --install
+jobs
+fg 1
+fg 2
+fg2
+fg
+nano hello
+nano .nanorc
+cd $Home/.nanorc
+nano demo.txt
+/Volumes/play\ 1.3/play ; exit;
+mkdir -p pictures/damn/son/that/ill
+mkdir pictures/shit
+cd ~
+mkdir pictures
+rm -r docs
+rm docs
+rm desktop/docs
+cd docs
+cp -r documents desktop/docs
+cp documents/HI.rtf desktop/HI.rtf
+less documents/HI.rtf
+ documents/HI.rtf
+mv desktop/media media shit
+mv desktop/hi.rtf documents
+mv hi.rft documents/
+mv Hello.rtf HI.rtf
+;s
+brew install zsh
+ python
+python
+cd itunes
+cd ~ iTunes Music Library.xml
+cd music
+cd~
+cd public
+play 07_Heavy_Metal_Queen_720p_En_Jp_DualAudio_En_Sub_Cowboy_Bebop.mkv
+vlc 07_Heavy_Metal_Queen_720p_En_Jp_DualAudio_En_Sub_Cowboy_Bebop.mkv
+cd Cowboy\ Bebop\ \(1998\)\ 720p\ \(BrRip\)\ DualAudio\ \(English\,Japanese\)\ HD\ 1-26\ Complete\ \[KoTuWa\]\ v2/
+cd downloadas
+nano hello.rtf
+cd /documents
+cd database
+cd pubsub
+cd library
+/Users/Nicholas/Desktop/Programming/Python/Python\ 3.4/Update\ Shell\ Profile.command ; exit;
+la
+who am i
+who -u
+who
+date
+serveradmin
+~/.ssh/known_hosts
+man ssh
+man nmap
+sudo apt-get update
